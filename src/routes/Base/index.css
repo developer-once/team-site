@@ -1,0 +1,57 @@
+.wrapper{
+  min-height: 100vh;
+  display: block;
+  padding-top: 20px;
+  background: #f5f6fa;
+}
+
+.project-base{
+  max-width: 1200px;
+  display: flex;
+  margin: 0 auto;
+  padding: 24px 24px 0;
+  border-radius: 8px;
+  box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.08);
+  background-color: #fff;
+}
+
+.base-item{
+  width: 50%;
+  text-align: left;
+}
+
+.base-text{
+  font-size: 16px;
+  line-height: 20px;
+  margin-bottom: 20px;
+}
+
+.base-title{
+  font-size: 18px;
+  font-weight: 600;
+}
+
+/* ----- 项目状态列表 ----- */
+.project-status{
+  max-width: 1200px;
+  margin: 24px auto;
+  padding: 24px 24px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.08);
+  background-color: #fff;
+}
+
+.status-item{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  padding: 10px;
+  text-align: left;
+  border-radius: 4px;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.status-box{
+  margin-top: 5px;
+}

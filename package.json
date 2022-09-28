@@ -1,0 +1,29 @@
+{
+  "name": "fe-site",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite --port 8080",
+    "build": "tsc && vite build --base=/xux/",
+    "serve": "vite preview --port 8080 --host"
+  },
+  "dependencies": {
+    "antd": "^4.19.5",
+    "express": "^4.18.0",
+    "react": "^17.0.0",
+    "react-dom": "^17.0.0",
+    "react-router-dom": "^6.3.0"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.0",
+    "@types/react-dom": "^17.0.0",
+    "@vitejs/plugin-react": "^1.0.0",
+    "cz-conventional-changelog": "^3.3.0",
+    "typescript": "^4.3.2",
+    "vite": "^2.6.4"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}

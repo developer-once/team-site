@@ -1,0 +1,10 @@
+node_modules
+.DS_Store
+.history
+dist-ssr
+*.local
+
+dist/
+
+docker-compose.yml
+docker-compose-base.yml
