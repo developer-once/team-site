@@ -19,9 +19,9 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <Routes>
-          <Route path="/xux/" element={<Home />} />
-          <Route path="/xux/done" element={<Dbase />} />
-          <Route path="/xux/base" element={<Base />} />
+          <Route path="/" element={<Home />} />
+          <Route path="/done" element={<Dbase />} />
+          <Route path="/base" element={<Base />} />
         </Routes>
       </BrowserRouter>
 
